@@ -1,5 +1,5 @@
 
-import {Header, Button} from './Feedback.styled'
+import  Button from './Feedback.styled'
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
     return (
