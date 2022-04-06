@@ -1,11 +1,8 @@
 import styled from '@emotion/styled'
 
-export const  Header = styled.h1`
 
 
-`
-
-export const Button = styled.button`
+ const Button = styled.button`
     border: 1px solid black;
     margin: 15px;
     height: 40px;
@@ -18,6 +15,7 @@ export const Button = styled.button`
        background-color: grey;
    }
 `
-    
+
+export default Button
 
 
