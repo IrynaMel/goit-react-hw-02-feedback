@@ -1,6 +1,7 @@
 import Notification from '../Notification/Notification'
+import PropTypes from "prop-types";
 
-const Statistic = ({good, bad, neutral, total, positivePercent})=> {
+const Statistic = ({good,  neutral, bad, total, positivePercent})=> {
 return(
     <div>
     
@@ -14,5 +15,15 @@ return(
       <Notification message="There is no feedback"></Notification>}
     </div>
 )}
+
+Statistic.propeTypes ={
+    good: PropTypes.number.isRequired,
+    neutral:PropTypes.number.isRequired,
+    bad:PropTypes.number.isRequired,
+    total:PropTypes.number.isRequired,
+    positivePercent:PropTypes.number.isRequired,
+}
+
+
 
 export default Statistic
