@@ -38,17 +38,17 @@ render=()=>{
     <Container>
       <Section title={"Please, leave a feedback"}>
     <FeedbackOptions 
-    options = {Keys}
-    onLeaveFeedback = {this.onLeaveFeedback}/>
+      options = {Keys}
+      onLeaveFeedback = {this.onLeaveFeedback}/>
     </Section>
     <Section title = {'Statistics'}>
-    <Statistic 
-    good = {good}
-    neutral={neutral}
-    bad = {bad}
-    total={total}
-    positivePercent = {positivePercent}
-    />
+      <Statistic 
+       good = {good}
+       neutral={neutral}
+       bad = {bad}
+       total={total}
+       positivePercent = {positivePercent}
+      />
     </Section>
     </Container>)
 }
